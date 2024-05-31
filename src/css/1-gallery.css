@@ -1,0 +1,36 @@
+@import url('styles.css');
+
+.section-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    max-width: 1128px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
+
+.sl-wrapper{
+    background-color: rgba(46, 47, 66, 0.8);
+}
+
+.sl-wrapper .sl-counter,
+.sl-wrapper .sl-close,
+.sl-wrapper .sl-navigation button{
+    color: #fff !important;
+}
+
+
+.sl-caption{
+    transition-duration: 250ms;
+}
